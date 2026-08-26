@@ -1,0 +1,30 @@
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", "PingFang SC", sans-serif;
+  margin: 0;
+  padding: 1rem;
+  background: #f4f6f8;
+  color: #1f2937;
+}
+header h1 {
+  font-size: 1.25rem;
+}
+.panel {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+input {
+  padding: 0.4rem;
+  margin-right: 0.5rem;
+}
+button {
+  padding: 0.4rem 0.8rem;
+}
+pre {
+  white-space: pre-wrap;
+  background: #f9fafb;
+  padding: 0.75rem;
+  border-radius: 6px;
+}
