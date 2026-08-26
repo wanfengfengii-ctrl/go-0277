@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>粮食平房仓磷化氢熏蒸闭环</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>粮食平房仓磷化氢熏蒸剂量与安全再入闭环</h1>
+    </header>
+    <main>
+      <section id="status-panel" class="panel">
+        <h2>服务状态</h2>
+        <p id="health">正在连接后端…</p>
+      </section>
+      <section class="panel">
+        <h2>任务查询</h2>
+        <form id="task-form">
+          <label for="task-number">任务编号</label>
+          <input id="task-number" name="task-number" placeholder="例如 T-0001" />
+          <button type="submit">查询</button>
+        </form>
+        <pre id="task-result"></pre>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
