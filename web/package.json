@@ -1,0 +1,12 @@
+{
+  "name": "granary-phosphine-fumigation-closure-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static frontend for the granary phosphine fumigation closure service",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
